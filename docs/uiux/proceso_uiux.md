@@ -1,11 +1,16 @@
 # Guía de preguntas y proceso UI/UX — Monitor de Bebé
 
 ## A. Usuario y contexto (quién, dónde, en qué momento)
-- ¿Quién lo va a usar? Padres, cuidador.
-- ¿En qué condiciones lo usará? de noche, con sueño, en una mano, en un tobillo o en el pañal.
-- ¿Qué tan técnico es el usuario? Nada técnico
-- ¿Cuáles son sus miedos principales? asfixia por estar boca abajo y mejorar patrones de sueño del bebé
-- ¿Qué decisiones tomarán con la información? ir a ver al bebé, girarlo, llamar a alguien, ir a urgencias
+- ¿Quién lo va a usar? 
+  - El bebé usará el dispositivo y los padres o cuidador, sabra el estado del bebé
+- ¿En qué condiciones lo usará? 
+  - De noche, con sueño, en una mano, en un tobillo o en el pañal.
+- ¿Qué tan técnico es el usuario?
+  - Nada técnico
+- ¿Cuáles son sus miedos principales? 
+  - Asfixia por estar boca abajo y mejorar patrones de sueño del bebé
+- ¿Qué decisiones tomarán con la información? 
+  - Ir a ver al bebé, girarlo, llamar a alguien, ir a urgencias
 
 ## B. Problema y propuesta de valor (qué promesa haces)
 - ¿Cuál es el “job to be done” en una frase?  
@@ -33,7 +38,10 @@
 ## D. Alertas (la parte más delicada)
 - ¿Qué eventos ameritan alerta? 
   - Que el bebé este boca abajo, no es alerta critica pero si es necesario 
-- ¿Qué severidades tendrás? Crítica 
+- ¿Qué severidades tendrás? 
+  - Crítica 
+  - Advertencia
+  - Poner atención
 - ¿Cuál es el “tiempo de reacción” esperado del usuario en cada nivel?
 - ¿Cómo confirmas que el usuario entendió? (acknowledge, repetir, escalamiento)
 - ¿Qué pasa si el usuario no responde? (escalamiento: sonido, llamada, contacto de respaldo)
