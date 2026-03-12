@@ -1,28 +1,39 @@
 # Guía de preguntas y proceso UI/UX — Monitor de Bebé
 
 ## A. Usuario y contexto (quién, dónde, en qué momento)
-- ¿Quién lo va a usar? Padres primerizos, cuidador.
-- ¿En qué condiciones lo usará? (de noche, con sueño, con una mano, en silencio, con ruido, con mala señal)
-- ¿Qué tan techie es el usuario?
-- ¿Cuáles son sus miedos principales? (asfixia, SIDS, fiebre, “¿está respirando?”, “¿está boca abajo?”)
-- ¿Qué decisiones tomarán con la información? (ir a ver al bebé, girarlo, llamar a alguien, ir a urgencias)
+- ¿Quién lo va a usar? Padres, cuidador.
+- ¿En qué condiciones lo usará? de noche, con sueño, en una mano, en un tobillo o en el pañal.
+- ¿Qué tan técnico es el usuario? Nada técnico
+- ¿Cuáles son sus miedos principales? asfixia por estar boca abajo y mejorar patrones de sueño del bebé
+- ¿Qué decisiones tomarán con la información? ir a ver al bebé, girarlo, llamar a alguien, ir a urgencias
 
 ## B. Problema y propuesta de valor (qué promesa haces)
 - ¿Cuál es el “job to be done” en una frase?  
-  - Ej: “Quiero saber que mi bebé está seguro mientras duerme”.
+  - “Quiero saber que mi bebé está seguro mientras duerme”.
+  - “Quiero conocer la calidad de sueño de mi bebé, sugerencias para mejorar su calidad de sueño y por ende la mía”.
 - ¿Qué 3 cosas son las más importantes que el sistema debe informar?
+  - Posición del bebé en estado real
+  - Su calidad de sueño
+  - Patrones de sueño
 - ¿Qué NO vas a hacer en v1 para mantenerlo simple?
+  - Medir temperatura
+  - Conexión Wifi
 
 ## C. Señales y eventos (qué detectas y qué significa)
-- ¿Qué detectas exactamente? (posición, ritmo cardiaco, movimiento, temperatura, etc.)
-- ¿Qué tan confiable es cada medición? (en condiciones reales)
+- ¿Qué detectas exactamente? 
+  - posición, ritmo cardiaco, movimiento y SPO2
+- ¿Qué tan confiable es cada medición? 
+  - TBD
 - ¿Cuáles son los estados del bebé que quieres representar?  
-  - Ej: Dormido tranquilo / Inquieto / Boca abajo / Sin lectura / Alerta crítica.
+  - Diferentes Posiciones.
 - ¿Cuáles son los falsos positivos más probables? ¿Cómo los manejarás?
+  - Que no mida bien cuando se empieza a dormir el bebé
+  - TBD no se como manejarlo
 
 ## D. Alertas (la parte más delicada)
-- ¿Qué eventos ameritan alerta? (y cuáles solo notificación silenciosa)
-- ¿Qué severidades tendrás? (Info / Advertencia / Crítica)
+- ¿Qué eventos ameritan alerta? 
+  - Que el bebé este boca abajo, no es alerta critica pero si es necesario 
+- ¿Qué severidades tendrás? Crítica 
 - ¿Cuál es el “tiempo de reacción” esperado del usuario en cada nivel?
 - ¿Cómo confirmas que el usuario entendió? (acknowledge, repetir, escalamiento)
 - ¿Qué pasa si el usuario no responde? (escalamiento: sonido, llamada, contacto de respaldo)
