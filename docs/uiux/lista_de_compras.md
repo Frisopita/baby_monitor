@@ -15,3 +15,10 @@
 
 <img src="images/max30102.png" alt="Max" width="40%">
 
+Checar consumos maximos de los sensores de corriente
+del micro, 
+tiempo encendido el dispositivo
+8 veces la capacidad en suiposición de 8 horas 
+cusumo maximo, a que voltage y en que condiciones, dime pagina, y no busques en otro lado
+conusmo con BLE
+y la corrinete que consumo por solo existir
